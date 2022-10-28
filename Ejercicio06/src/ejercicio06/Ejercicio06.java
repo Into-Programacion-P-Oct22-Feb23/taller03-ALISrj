@@ -3,27 +3,26 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejercicio02;
+package ejercicio06;
 
 /**
  *
- * @author reroes
+ * @author UTPL
  */
-public class Ejercicio02 {
+public class Ejercicio06 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // Resolución del problema
-        int var1 = 10;
-        int var2 = 2;
+        // TODO code application logic here
         
-        System.out.println((Math.pow(10, 2)) + 10);
-                
+        double raiz = Math.sqrt(81);
+        boolean comparacion1 = ((raiz + 9)/3)==9;
+        boolean comparacion2 = 10 >1;
+        
+        
+        System.out.println(comparacion1 && comparacion2);
     }
-    
-    
-    
     
 }
